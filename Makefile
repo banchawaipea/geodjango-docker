@@ -16,6 +16,8 @@ migrate:
 	docker-compose exec project python3 manage.py migrate --noinput
 makemigrations:
 	docker-compose exec project python3 manage.py makemigrations
+createapp:
+	docker-compose exec project python3 manage.py startapp app
 
 superuser:
 	docker-compose exec project python3 manage.py createsuperuser	
