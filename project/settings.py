@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "django.contrib.gis",
+    'django.contrib.gis',
+    'app',#เพิ่มแอปเพื่อเชื่อมการทำงาน
 ]
 
 MIDDLEWARE = [
