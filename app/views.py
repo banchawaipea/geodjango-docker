@@ -1,5 +1,6 @@
+from unicodedata import name
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def Home(request):
-    return HttpResponse('Hello')
+def Index(request):
+    return render(request, 'main.html')
