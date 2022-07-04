@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Sun Jul  3 19:50:27 2022
+# Make data base, printed on Mon Jul  4 20:39:40 2022
 
 # Variables
 
@@ -26,7 +26,7 @@ VSCODE_LOG_NATIVE = false
 # makefile
 CURDIR := /Users/waipia/Downloads/geodjango/project
 # makefile (from `.env', line 9)
-ALLOWED_HOSTS = localhost 127.0.0.1 sasstwo.ci0jto3hznfw.ap-southeast-1.rds.amazonaws.com [::1]
+ALLOWED_HOSTS = localhost 127.0.0.1 [::1]
 # makefile
 SHELL = /bin/sh
 # environment
@@ -46,11 +46,11 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/2c/6c90rpp502qg66k_wfz4b7z80000gn/T/vscode-ipc-a170b5af-4dad-4b79-a5e2-6d64e6089032.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2c/6c90rpp502qg66k_wfz4b7z80000gn/T/vscode-ipc-48d545b0-2e9a-48df-90d5-a43431cfdcba.sock
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+PATH = /opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # makefile (from `.env', line 2)
 POSTGRES_PASS = postgres
 # environment
@@ -62,7 +62,7 @@ ELECTRON_RUN_AS_NODE = 1
 # makefile (from `.env', line 1)
 POSTGRES_USER = postgres
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.fJDGpxKbMq/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.DweUeuqM8o/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -101,8 +101,6 @@ MAKE = $(MAKE_COMMAND)
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
-# environment
-LOCAL_GIT_DIRECTORY = /Applications/GitHub Desktop.app/Contents/Resources/app/git
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -170,17 +168,17 @@ ENV_FILE_PARAM = --env-file .env
 # environment
 MAKELEVEL := 0
 # makefile (from `.env', line 7)
-SECRET_KEY = django-insecure-7-oj9si(z^4vb6lt_-w
+SECRET_KEY = 'django-insecure-7-oj9si(z^4vb6lt_-w
 # environment
 CONDA_PREFIX = /opt/homebrew/Caskroom/miniforge/base
 # environment
-VSCODE_PID = 57848
+VSCODE_PID = 9156
 # environment
 _CE_CONDA = 
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=84/1024=8%, Rehash=0, Collisions=2/109=2%
+# Load=83/1024=8%, Rehash=0, Collisions=2/108=2%
 
 # Pattern-specific Variable Values
 
@@ -188,9 +186,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777231, inode 17098569): 18 files, no impossibilities.
+# . (device 16777230, inode 17098569): 20 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -257,7 +255,7 @@ build:
 # Not a target:
 .env:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-03 10:27:37
+#  Last modified 2022-07-03 21:51:24
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -306,9 +304,6 @@ shell:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 32):
- 
-make: *** No rule to make target `all'.  Stop.
-
 	docker-compose exec project python3 manage.py shell
 	
 
@@ -317,6 +312,9 @@ volume:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 29):
+ 
+make: *** No rule to make target `all'.  Stop.
+
 	docker volume inspect project_postgres_data	
 	
 
@@ -341,6 +339,6 @@ down:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4082 / max = 4082 / min = 4082 / avg = 4082
 
-# Finished Make data base on Sun Jul  3 19:50:27 2022
+# Finished Make data base on Mon Jul  4 20:39:40 2022
 
  
