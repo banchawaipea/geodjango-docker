@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Tue Jul  5 00:11:17 2022
+# Make data base, printed on Sat Jul  9 09:17:18 2022
 
 # Variables
 
@@ -24,7 +24,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/waipia/Downloads/geodjango/project
+CURDIR := /Users/waipia/Desktop/django_template/project
 # makefile (from `.env', line 9)
 ALLOWED_HOSTS = localhost 127.0.0.1 [::1]
 # makefile
@@ -46,7 +46,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/2c/6c90rpp502qg66k_wfz4b7z80000gn/T/vscode-ipc-2619f5e7-10f3-4159-b818-baea0d01045e.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2c/6c90rpp502qg66k_wfz4b7z80000gn/T/vscode-ipc-d460f075-d743-4776-a5f1-c54f14e1f0fc.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -62,7 +62,7 @@ ELECTRON_RUN_AS_NODE = 1
 # makefile (from `.env', line 1)
 POSTGRES_USER = postgres
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.DweUeuqM8o/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.cP8kxSpPK0/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -70,7 +70,7 @@ CONDA_EXE = /opt/homebrew/Caskroom/miniforge/base/bin/conda
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/waipia/Downloads/geodjango/project
+PWD = /Users/waipia/Desktop/django_template/project
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -172,7 +172,7 @@ SECRET_KEY = 'django-insecure-7-oj9si(z^4vb6lt_-w
 # environment
 CONDA_PREFIX = /opt/homebrew/Caskroom/miniforge/base
 # environment
-VSCODE_PID = 24365
+VSCODE_PID = 14719
 # environment
 _CE_CONDA = 
 # environment
@@ -186,7 +186,7 @@ LANG = C
 
 # Directories
 
-# . (device 16777230, inode 17098569): 20 files, no impossibilities.
+# . (device 16777233, inode 17098569): 20 files, no impossibilities.
 
 # 20 files, no impossibilities in 1 directories.
 
@@ -339,6 +339,6 @@ down:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4082 / max = 4082 / min = 4082 / avg = 4082
 
-# Finished Make data base on Tue Jul  5 00:11:17 2022
+# Finished Make data base on Sat Jul  9 09:17:18 2022
 
  
